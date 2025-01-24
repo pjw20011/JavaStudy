@@ -1,4 +1,4 @@
-package com.example.javastudy;
+package com.example.javastudy.java.InterfaceStudy;
 
 public class Car implements Vehicle{
     @Override

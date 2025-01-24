@@ -1,4 +1,4 @@
-package com.example.javastudy;
+package com.example.javastudy.java.InterfaceStudy;
 
 public class MotorCycle implements Vehicle{
     public void drive(){
