@@ -9,7 +9,7 @@ public class Main {
         Meeting meeting = new Meeting();
         Set<String> participants = new HashSet<String>();
         participants.add("danny");
-        meeting.validateAndUpdate(new UpdateMeeting("미팅룸1", "책읽기", participants,
+        meeting.validateAndUpdate(new UpdateMeeting("미팅룸2", "책읽기", participants,
                 "책읽기 미팅", ZonedDateTime.now(), ZonedDateTime.now()));
     }
 }
