@@ -9,7 +9,7 @@ public class Shoe extends AbstractItem{
 
     public Shoe(int size, String brand, String color,
                 String name, BigDecimal price) {
-        super(name, price, discount);
+        super(name, price, BigDecimal.ZERO);
         this.size = size;
         this.brand = brand;
         this.color = color;

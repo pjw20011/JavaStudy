@@ -12,7 +12,7 @@ public class Order {
     Order() {
         this.items = new ArrayList<>();
         this.totalPrice = BigDecimal.ZERO;
-        this.priceCalculator = new PriceCalculator()
+        this.priceCalculator = new PriceCalculator();
     }
 
     public void add(AbstractItem item) {
