@@ -5,5 +5,6 @@ public class Main {
         HelloProgrammer helloProgrammer = new HelloProgrammer();
         helloProgrammer.hi(new JavaProgrammer());
         helloProgrammer.hi(new CppProgrammer());
+        helloProgrammer.hi(new PythonProgrammer());
     }
 }
